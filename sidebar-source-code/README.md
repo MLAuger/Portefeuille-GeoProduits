@@ -1,4 +1,4 @@
-HTML and css code for the sidebar was modified from the Boostrapious tutorial available on https://bootstrapious.com/p/bootstrap-sidebar#google_vignette; 
-specifically the Fixed Position scrollable sidebar.
+Le code HTML et CSS de la barre latérale a été modifié à partir du tutoriel Boostrapious disponible sur https://bootstrapious.com/p/bootstrap-sidebar#google_vignette ;
+spécifiquement la barre latérale déroulante de position fixe.
 
-For use, please refer to the sidebar-source-code/LICENSE.
+Pour l'utilisation, veuillez vous référer à sidebar-source-code/LICENSE.
