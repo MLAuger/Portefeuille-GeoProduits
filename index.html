@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Portefeuille de GéoConnaissances</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/port_style.css">
+	<!-- <script> function MyFunction(){ -->
+				<!-- document.getElementById("focus").focus(); -->
+			<!-- }  -->
+	<!-- </script> -->
+	 <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+ <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- top bar logos -->
+	<nav id="focus" class="navbar navbar-custom">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+			  <img id="nrcanlogo" src="images/nrcan_logo.PNG"  width="15%" height="" alt="logo Ressources naturelles Canada">
+			  <img id="canlogo" src="images/can_logo3.PNG"  width="5%" height="" alt="logo Gouvernement du Canada">
+		</div>
+	  </div>
+	</nav>
+	
+	<div class="wrapper">
+<!-- Sidebar -->
+        <nav id="sidebar">
+			<ul class="list-unstyled components">
+				<li class="">
+					<a href="#content">Introduction</a>
+				</li>
+				<li>
+					<a  href="#PrioritySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="hpriority">Répondre aux priorités</a>
+					<ul class="collapse list-unstyled" id="PrioritySubmenu">
+						<li>
+							<a href="#flood">Soutien à la cartographie d'urgence des inondations</a>
+						</li>
+						<li>
+							<a href="#fire">Cartes de sensibilisation aux feux de végétation</a>
+						</li>
+						<li>
+							<a href="#osdp">Cartes personnalisées pour la Plateforme de science et de données ouvertes</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#CreateSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="ck">Création de connaissances</a>
+					<ul class="collapse list-unstyled" id="CreateSubmenu">
+						<li>
+							<a href="#lcc">Couvertures de terres du Canada 2015</a>
+						</li>
+						<li>
+							<a href="#world">Le monde</a>
+						</li>
+						<li>
+							<a href="#ppsr">Cartes d'ensoleillement et du potentiel d'énergie solaire photovoltaïque du Canada</a>
+						</li>
+						<li>
+							<a href="#smtc">Tableau de bord de la situation du bois massif au Canada</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#InformSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="id">Informer les décisions</a>
+					<ul class="collapse list-unstyled" id="InformSubmenu">
+						<li>
+							<a href="#hot2000">Carte climatique HOT2000</a>
+						</li>
+						<li>
+							<a href="#mpi">Inventaire de grands projets</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#contact">Contactez-nous</a>
+				</li>
+				<li>
+					<a href="GeoInsights Portfolio EN.html">English</a>
+				</li>
+				<a href="https://gcgeo.gc.ca">
+					<img id="geologo" src="images/GEO_logo.PNG" width="40%" height="" alt="logo Geo.ca">
+				</a>
+			</ul>
+		</nav>
+<!-- Portfolio content section -->
+    <div id="content">
+		<div id="intro" class="container-fluid">
+			<div class="row">
+				<img id="GIlogo2" src="images/Geoinsights_logo.PNG"  width="30%" height="" alt="logo GeoConnaissances" >
+		    </div>
+<!--Introduction paragraph -->
+			<div class="row">
+		  		<div class="col-md-4 col-lg-12">
+					<p>GéoConnaissances fait partie de la Plateforme géospatiale fédérale (PGF) et s’appuie sur les principes de la PGF pour offrir de la valeur aux Canadiens et au Gouvernement du Canada.
+					</p>
+				</div>
+		  		<div class="col-md-4 col-lg-12">
+					<p>Le portefeuille présente une sélection de projets récents développés and soutenus par GéoConnaissances.
+					Chaque exemple souligne les analyses, les applications, la cartographie et la conception utilisées pour créer des produits qui répondent à de nombreux besoins, qu’il s’agisse de répondre aux priorités gouvernementales ou de partager des connaissances géographiques avec les Canadiens.
+					</p>
+				</div>
+			</div>
+		</div>
+<!-- Content for Responding to Priorities theme-->
+		<div class="section_one">
+			<div class="container-fluid">
+				<h1 id="hpriority1">Répondre aux priorités</h1>
+			</div>
+			<div class="container-fluid">
+				<h3 id="flood">Soutien à la cartographie d'urgence des inondations</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="dept">Ressources naturelles Canada &#9679 Le Service géomatique d'urgence</h4>
+				</div>
+				<p id="description">Pendant la 2019 saison d’inondations, le Service géomatique d’urgence de Ressources naturelles Canada s’appuyait sur l’équipe de GéoConnaissances pour l’aider l’intervention aux inondations dans l’Est du Canada. Des centaines d’imageries satellitaire de Manitoba, de l’Ontario, de Québec, et du Nouveau-Brunswick ont été acquises, traitées, et développées en produits uniques pour soutenir la connaissance de la situation et la planification des interventions. Les résultats étaient un aperçu de la situation presque au temps réelle, et des informations essentielles pour les répondeurs aux urgences pendant la phase d’intervention du cycle de gestion des urgences.</p>
+				<img class = "projimg" src="images/flood_lrg.png" alt="carte d'inondations 2019">
+			</div>
+			<div class="container-fluid">
+				<h3 id="fire">Wildland Fire Awareness Maps</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 Le Centre des opérations d'urgence du Ministère</h4>
+				</div>
+				<p id="">Pendant la 2021 saison des feux de végétation, GéoConnaissances a été commissionner par le Centre des opérations d’urgence du Ministère (COUM) de créer des cartes statiques de sensibilisation aux feux de végétation pour les rapports de situation du sous-ministre et du sous-ministre adjoint (SMA). Les cartes mettent en évidence les feux actifs qui pourraient affecter les immobilisations de Ressources naturelles Canada, l’infrastructure essentielle, et les communautés de Premiers nations. Elles ont été créées pour les provinces demandées par COUM et fournies deux fois par semaine pour un appui continu. </p>
+				<img class = "projimg" src="images/fires_lrg2.png" alt="Carte de feux de végétation">
+			</div>
+			<div class="container-fluid">
+				<h3 id="osdp">Cartes personnalisées pour la plateforme de science et de données ouvertes</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 Secteur de la politique stratégique et innovation</h4>
+				</div>
+				<p id="">GéoConnaissances est responsable de la création et de la maintenance des cartes dynamiques qui prennent avantage de la visualisateur de la PGF sur la Plateforme de science et de données ouvertes pour les effets cumulatifs (PSDO). Cela inclus deux cartes permettant la recherche de données géospatiales dans la catalogue et huit cartes basées sur le thème des effets cumulatifs. GéoConnaissances fournit également des conseils sur la présentation optime des données géospatiales dans des cartes et dans la catalogue PSDO. </p>
+				<div class="row">
+					<a href="https://osdp-psdo.canada.ca/dp/fr" target="_blank" class="appurl">Visitez la Plateforme de science et de données ouvertes</a>
+				</div>
+			</div>
+		</div>
+<!-- Content for Creating Knowledge theme -->
+		<div class="section_two">
+			<div class="container-fluid">
+				<h1 id="ck1">Création de connaissances</h1>
+			</div>
+			<div class="container-fluid">
+				<h3 id="lcc">Couvertures des terres du Canada 2015</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 Centre canadien d'observation de la terre</h4>
+				</div>
+				<p>En utilisant les données de la couverture de sol de 2015, dérivées initialement d’imageries satellitaire par le Centre canadien d’observation de la terre à une résolution de 30 mètres, l’équipe de GéoConnaissances a mise à jour trois produits : le traitement des données pour la propre visualisation dans un service web; une application de carte interactive en ligne, et une carte affiche numérique et en papier. Les données ont été présentées dans un façon compréhensive, en expliquant et montrant chaque type de couverture de sol qu’on trouverait sur la carte. </p>
+				<div class="row">
+					<a href = "https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fullf.web&search1=R=315660" target="_blank" class="appurl">Accédez la carte des couvertures des terres du Canada 2015</a>
+				</div>
+				<img class="projimg" src="images/FR_lcc.PNG" alt= "carte de la couverture de sol 2015">
+			</div>
+			<div class="container-fluid">
+				<h3 id="world">Le monde</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 l'Atlas du Canada</h4>
+				</div>
+				<p>Le monde est une carte politique de référence générale axée sur les noms et bordures internationales des pays souverains et non-souverains. C’est une nouvelle direction cartographique pour l’Atlas du Canada, fournissant une carte mise à jour au but de développée la connaissance géographique et en utilisant des palettes de couleurs et des choix typographiques pour créer un conception cartographique frais, nouveau, et flexible. La projection cartographique Winkel II préserve les continents contigus tandis que créer une symétrie formelle pour l’ensemble de la carte.  </p>
+				<div class="row">
+					<a href = "https://open.canada.ca/data/fr/dataset/8f1749a5-ac67-467a-9c01-752b375127c3" target="_blank" class="appurl">Accédez la carte du monde</a>
+			    </div>
+				<img class="projimg" src="images/FR_lemonde.png" alt= "Le monde">
+			</div>
+			<div class="container-fluid">
+				<h3 id="ppsr">Cartes d'ensoleillement et du potentiel d'énergie solaire photovoltaïque du Canada</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 CanmetÉNERGIE</h4>
+				</div>
+				<p>Tirer parti des données ouvertes de tout le gouvernement, GéoConnaissances a collaboré avec l’équipe des systèmes photovoltaïques de CanmetÉNERGIE de Ressources naturelles Canada pour développer une application de web qui cartographie la potentielle photovoltaïque de 3500 municipalités canadiens. En utilisant des données qui s’étendent une période de 20 ans, l’application analyse et cartographie l’estimation en kilowatt par heure de la potentielle de l’énergie solaire pour générer l’électricité dans des systèmes photovoltaïques connectées par grilles. Les estimations sont par mois et par année, et pour six réseaux différents pour n’importe quel endroit au Canada. </p>
+				<div class="row">
+					<a href = "https://arcgis.com/apps/webappviewer/index.html?id=28c5b15ca78048c6ae1b354dec9027dc&locale=fr" target="_blank" class="appurl">Ouvrez l'application web</a>
+				</div>
+				<div>
+					<iframe class="myframe" id="ppsrIframe" src="about:blank" data-src="https://arcgis.com/apps/webappviewer/index.html?id=28c5b15ca78048c6ae1b354dec9027dc&locale=fr" width="1100" height="700" scrolling = "no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<h3 id="smtc">La situation du bois massif au Canada</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 Service canadien des forêts</h4>
+				</div>
+				<p id="">La carte, la base de données, et le tableau de bord de la Situation du bois massif au Canada fournissent le lieu and l’information des projets et installations de fabrication de bois massif achevés, en constructions, ou prévus au Canada. Il a été publié avec le rapport SBMC de 2021 du Service canadien des forêts, qui document les projets et la capacité de production des projets de construction de bois massif, et analyse l’accroissement de construction en bois massif et montre au constructeurs et concepteurs la valeur de construire avec le bois. </p>
+				<div class="row">
+					<a href = "https://arcgis.com/apps/dashboards/ce033edeaaa34e26bf58982d88be72eb" target="_blank" class="appurl">Ouvrez l'application web </a>
+				</div>
+				<div>
+					<iframe id="stmcIframe" class="myframe" width="1100" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://arcgis.com/apps/dashboards/ce033edeaaa34e26bf58982d88be72eb"></iframe>
+				</div>
+			</div>
+		</div>
+<!-- Content for Informing Decisions theme -->
+		<div class="section_three">
+			<div class="container-fluid">
+				<h1 id="id2">Informer les décisions</h1>
+			</div>
+			<div class="container-fluid">
+				<h3 id="hot2000">Carte climatique HOT2000</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 L'Office de l'efficacité énergétique</h4>
+				</div>
+				<p>La Division d’habitation de l’Office de l’efficacité énergétique de Ressources naturelles Canada gère les initiatives d’efficacité énergétique des maisons neuves et existantes. Un aspect clé est la programme d’analyse d’énergie, HOT2000. GéoConnaissances a livré de fonctionnalité clé et des données géographiques renouvelées au HOT2000 avec le développement d’une application de cartographie en ligne qui fournit des données climatiques précises à tout utilisateurs, y compris les agences de régulation, les constructeurs, et le gouvernement, quand et où ils ont les besoins.</p>
+				<div class="row">
+					<a href = "https://arcgis.com/apps/webappviewer/index.html?id=42ffdbd53472497eb341891475971272&locale=fr" target="_blank" class="appurl">Ouvrez l'application web</a>
+				</div>
+				<div>
+					<iframe class="myframe" id="hot2000Iframe" src="about:blank" data-src="https://arcgis.com/apps/webappviewer/index.html?id=42ffdbd53472497eb341891475971272&locale=fr" width="1100" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<h3 id="mpi">Inventaire des grands projets</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Ressources naturelles Canada &#9679 Bureau de gestion des grands projets</h4>
+				</div>
+				<p>Chaque année, la Division de l’analyse et de données économiques de la Secteur de politique stratégique et d’innovation collabore avec des experts et des partenaires pour mettre à jour l’Inventaire des grands projets. L’inventaire suit les grands projets des secteurs d’énergie, de mine et de forêts qui sont en voie de construction ou qui sont prévus au cours des 10 prochaines années. Une carte nationale et 13 cartes provinciales/territoriales, en anglais et en français, sont créées pour montrer l’emplacement, le type, et la valeur des grands projets.</p>
+				<div class="row">
+					<a href = "https://open.canada.ca/data/fr/dataset/f5f2db55-31e4-42fb-8c73-23e1c44de9b2" target="_blank" class="appurl">Visitez l'Inventaire des grands projets de BGGP sur Cartes ouvertes</a>
+				</div>
+				<img class="projimg" src="images/FR_mpi.png" alt= "La carte d'inventaire des grands projets">
+			</div>
+
+		</div>
+		<div class="container-fluid">
+			<h3 id="contact">Contactez-nous</h3>
+			<div class="row">
+				<div class="col-md-4 col-lg-12">Ressources naturelles Canada</div>
+				<div class="col-md-4 col-lg-12">Plateforme géospatiale fédérale</div>
+				<div class="col-md-4 col-lg-12">L'équipe GéoConnaissances</div>
+				<a href="emailto:geoinsights-geoconnaissances@nrcan-rncan.gc.ca" class="appurl"> geoinsights-geoconnaissances@nrcan-rncan.gc.ca</a>
+			</div>
+		</div>
+    </div>
+</div>
+<!--footer -->
+<footer class="text-center text-lg-start text-muted">
+	<!-- Copyright -->
+  <div class="text-center p-4" style="background-color: #FFFFFF;">
+    <a class="text-reset fw-bold">© Sa Majesté la Reine du Chef du Canada, représentée par le ministre des Ressources naturelles</a>
+  </div>
+</footer>
+<script>
+let myMap = document.getElementsByClassName('myframe');
+let myMap1= document.getElementById("hot2000Iframe");
+let myMap2= document.getElementById("ppsrIframe");
+
+function observerFn1(entries) {
+   
+    let myMapEntry = entries[0]; // we have only one entry
+    if(myMapEntry.isIntersecting) {
+        myMap1.src = myMap1.getAttribute("data-src");
+    } else {
+        myMap1.src="";
+    }
+};
+function observerFn2(entries) {
+   
+    let myMapEntry = entries[0]; // we have only one entry
+    if(myMapEntry.isIntersecting) {
+		myMap2.src = myMap2.getAttribute("data-src");
+    } else {
+		myMap2.src="";
+    }
+};
+
+let observer1 = new IntersectionObserver(observerFn1);
+let observer2 = new IntersectionObserver(observerFn2);
+
+observer1.observe(myMap1);
+observer2.observe(myMap2);
+
+</script>
+    </body>
+</html>
