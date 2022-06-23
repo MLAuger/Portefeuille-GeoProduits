@@ -55,8 +55,9 @@ body {
 
 #geologo{
 	display:block; 
-	float:left; 
-	padding-left:10px;
+	margin-left: 3%;
+	margin-right:auto;
+	padding-top:10px;
 }
 #canlogo{
 	display:block; 
